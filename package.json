@@ -14,15 +14,17 @@
     "dependencies": {},
     "devDependencies": {
         "chai": "*",
+        "istanbul": "~0.1.29",
         "jshint": "~2.1.2",
-        "mocha": "1.7.4"
-     },
+        "mocha": "1.7.4",
+        "optimist" : "0.3.5"
+    },
     "repository": {
         "type": "git",
         "url": "git://github.com/phillro/node-elasticsearch-client.git"
     },
     "scripts": {
         "test": "make test",
-        "coverage": "make test-cov --no-print-directory"
+        "coverage": "make test-cov"
     }
 }
